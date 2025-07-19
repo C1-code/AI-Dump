@@ -46,8 +46,8 @@ Run the script from your terminal, passing the path to the project folder you wa
 python ai_dump.py /path/to/your/project
 ```
 
-### Contributing
+## Contributing
 Contributions are welcome! If you have an idea for an improvement or have found a bug, please feel free to open an issue or submit a pull request.
 
-### License
+## License
 This project is licensed under the MIT License.
