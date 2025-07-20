@@ -36,6 +36,8 @@ class AIDump:
         files_copied_counts = {}
 
         for root, dirs, files in os.walk(self.folder_path):
+            if 'venv' in dirs:
+                dirs.remove('venv')
             dirs.sort()
             files.sort()
             
